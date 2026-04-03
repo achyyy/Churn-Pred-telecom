@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+#pikle files
+customer_churn_model.pkl
+encoders.pkl
+
+# Model artifacts
+# Uncomment these if you prefer to regenerate them locally
+# customer_churn_model.pkl
+# encoders.pkl
+
+# Logs / temp
+*.log
+*.tmp
